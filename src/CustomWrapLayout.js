@@ -10,7 +10,7 @@ export default class CustomWrapLayout extends React.Component {
     const isSpecEmpty = !specSelectors.specStr()
 
     if(isSpecEmpty) {
-      return <h4>No spec provided.</h4>
+      return <h4>No spec providjjjjed.</h4>
     }
 
     return (

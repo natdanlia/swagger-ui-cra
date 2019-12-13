@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import SwaggerUI from 'swagger-ui'
 import CustomLayout from './CustomLayout'
-import logo from './logo.svg';
 import './App.css';
 import 'swagger-ui/dist/swagger-ui.css';
 
@@ -20,12 +19,15 @@ class App extends Component {
     SwaggerUI({
       dom_id: `#${DOM_ID}`,
       url: "http://petstore.swagger.io/v2/swagger.json",
+      defaultModelsExpandDepth: -1,
+      // docExpansion: 'full',
       plugins: [
         CustomLayoutPlugin
       ],
       layout: "CustomLayout"
     })
   }
+
   render() {
     return (
       <div className="App">
