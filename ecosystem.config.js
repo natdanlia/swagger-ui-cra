@@ -30,7 +30,7 @@ module.exports = {
       user : 'node',
       host : 'localhost',
       ref  : 'origin/master',
-      repo : 'git@github.com:repo.git',
+      repo : 'git@github.com:natdanlia/swagger-ui-cra.git',
       path : '/Users/nathangezahegne/Documents/OPADOL/swagger-ui-cra',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
     },
