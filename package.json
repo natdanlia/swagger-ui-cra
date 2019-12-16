@@ -11,7 +11,7 @@
   "scripts": {
     "start": "PORT=3001 react-scripts start",
     "start:production":"npm run build && npm run start:prod",
-    "start:prod": "NODE_ENV=production node server",
+    "start:prod": "NODE_ENV=production node source/src/index.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
