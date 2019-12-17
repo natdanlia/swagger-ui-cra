@@ -1,3 +1,4 @@
+s
 {
   "name": "swagger-ui-cra",
   "version": "0.1.0",
@@ -11,7 +12,7 @@
   "scripts": {
     "start": "PORT=3001 react-scripts start",
     "start:production":"npm run build && npm run start:prod",
-    "start:prod": "NODE_ENV=production node /Users/nathangezahegne/Documents/OPADOL/swagger-ui-cra/source/src/index.js",
+    "start:prod": "NODE_ENV=production serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
